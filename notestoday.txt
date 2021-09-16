@@ -1,1 +1,12 @@
 HOUSE PRICE IN EASTERN SUBURB IS HIGHER BECAUSE the schools are more famous
+
+Sep 16 2021
+target audience: consumer affairs
+
+purpose: to influence the related department to get involve to balance out the growth of house prince
+
+checklist:
+find most updated dataset - try to find diferent data sets related to house price from different data sources, focus on Melbourne
+enhance the hypothesis
+clean the data sets
+divide duty between the group: TBC
