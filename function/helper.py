@@ -24,7 +24,6 @@ def clean_house_data(house_data: DataFrame, column_to_int_list: list[str]) -> Da
     house_data_cleaned = house_data_cleaned.drop(["Bedroom2"], axis = "columns")
     house_data_cleaned = house_data_cleaned.fillna(0)
     set_integer(column_to_int_list, house_data_cleaned)
-    house_data_cleaned["Price"] = house_data_cleaned.apply(lambda x: "{:,.0f}".format(x["Price"]), axis = 1)
     return house_data_cleaned
 
 def clean_school_data(school_data: DataFrame) -> DataFrame:
