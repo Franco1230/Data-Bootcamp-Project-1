@@ -10,11 +10,6 @@ from scipy.stats import linregress
 from citipy import citipy
 from pprint import pprint
 
-# Hi Markers, please use your onw API keys to run the script, thank you!
-from api_keys import weather_api_key
-from api_keys import g_key
-
-# Define function to set data type
 def set_integer(data_type, pddf):
     for row in data_type:
         pddf[row] = pddf[row].astype(int)
