@@ -11,3 +11,5 @@ This analysis is based on 4 factors that coul potentially affect the house price
   This is a critical element to affect house price. 3 years of data was analized to try find out the relationship between crime rate and house price
   
   4. Transport, this analysis is focus on the surrounding train station of a suburb in a 3KM radius. Will the house worth more when there's more train station around?
+
+Note for Markers: Some fo the script requires Google API Key to run.
